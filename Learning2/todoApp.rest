@@ -6,6 +6,16 @@ POST http://localhost:8000/auth/register
 Content-Type: application/json
 
 {
-    "username": "peter@gmail.com", "password": "123123123"
+    "username": "edward@gmail.com", "password": "123123123"
+
+}
+
+
+### Login a user POST /AUTH/LOGIN 
+POST http://localhost:8000/auth/login 
+Content-Type: application/json
+
+{
+    "username": "edward@gmail.com", "password": "123123123"
 
 }
