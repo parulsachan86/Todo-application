@@ -13,6 +13,7 @@
   "description": "An full stack todo application which uses Nodejs backend, SQL Lite database and JWT Authenticationn ",
   "dependencies": {
     "bcryptjs": "^3.0.2",
+    "dotenv": "^16.5.0",
     "express": "^5.1.0",
     "jsonwebtoken": "^9.0.2"
   },

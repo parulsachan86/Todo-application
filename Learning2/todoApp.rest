@@ -1,0 +1,11 @@
+### GET 
+GET http://localhost:8000
+
+### Register a user POST /AUTH/REGISTER
+POST http://localhost:8000/auth/register 
+Content-Type: application/json
+
+{
+    "username": "peter@gmail.com", "password": "123123123"
+
+}
